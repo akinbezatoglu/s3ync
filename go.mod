@@ -4,6 +4,7 @@ go 1.21.5
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.26.6
+	github.com/fsnotify/fsnotify v1.7.0
 	github.com/spf13/cobra v1.8.0
 	gopkg.in/ini.v1 v1.67.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -25,4 +26,5 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
+	golang.org/x/sys v0.16.0 // indirect
 )
