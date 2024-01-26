@@ -2,6 +2,8 @@
 
 Automate the synchronization of your local backups or changes with S3 buckets.
 
+<img src="./s3ync.svg">
+
 ## Commands
 
 Initialize config file:
