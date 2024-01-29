@@ -18,7 +18,7 @@ const (
 	xdgConfigHome  = "XDG_CONFIG_HOME"
 )
 
-var path = filepath.ToSlash(filepath.Join("/mnt", "s3ync", "config.yml"))
+var path = filepath.Join(ConfigDir(), "config.yml")
 
 type Syncs struct {
 	// Key: filesytem path, Value: [aws-profile, bucket-name]
