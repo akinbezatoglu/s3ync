@@ -14,14 +14,11 @@
 !*.go
 !go.sum
 !go.mod
-!go.work
 
 !README.md
 !LICENSE
 
 !Makefile
-
-!assets/*
 
 # ...even if they are in subdirectories
 !*/
